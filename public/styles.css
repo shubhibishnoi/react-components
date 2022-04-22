@@ -1,0 +1,86 @@
+/* .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+
+.nav-items > li {
+  padding: 10px;
+}
+.img-item {
+  width: 40%;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  height: 90px;
+  padding: 10px 36px;
+  background-color: lightyellow;
+}
+
+nav h3 {
+  margin-top: 0;
+  font-family: "Square Peg", cursive;
+  font-size: 50px;
+  color: lightcoral;
+}
+
+hero {
+  display: flex;
+  flex-direction: column;
+}
+hero-photo {
+  max-width: 400px;
+  align-self: center;
+  padding-top: 30px;
+}
+.hero-header {
+  color: lightcoral;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.card {
+  width: 150px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img {
+  width: 100%;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.star-img {
+  width: 30px;
+}
+
+.card-stats {
+  display: flex;
+  align-items: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+}
